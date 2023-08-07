@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraping Example</title>
+</head>
+<body>
+    <h1>Web Scraping Example</h1>
+    <form action="/scrape" method="POST">
+        <label for="url">Website:</label>
+        <select  id="url" name="url">
+            <option value="flipkart">Flipkart</option>
+            <option value="nykaa">Nykaa</option>
+            <option value="amazon">Amazon</option>
+        </select>
+        <br><br>
+        <label for="product_name">Product Name:</label>
+        <input type="text" id="product_name" name="product_name"><br><br>
+        <input type="submit" value="Scrape">
+    </form>
+</body>
+</html>
